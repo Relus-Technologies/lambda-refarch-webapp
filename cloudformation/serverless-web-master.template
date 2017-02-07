@@ -10,13 +10,14 @@
 
 		"HostingBucket": {
 			"Description": "S3 Bucket name for where the website should be hosted",
-			"Type": "String"
+			"Type": "String",
+			"Default": "blog.reluslabs.com"
 		},
 
 		"CodeBucket": {
 			"Description": "S3 Bucket containing Lambda deployment packages and sub-stack templates",
 			"Type": "String",
-			"Default": "awslambda-serverless-web-refarch"
+			"Default": "relus-awslambda-serverless-web-refarch"
 		},
 
 		"CodeKeyPrefix": {
@@ -28,7 +29,7 @@
 		"APIStageName": {
 			"Description": "The name of the stage for the API deployment",
 			"Type": "String",
-			"Default": "prod"
+			"Default": "test"
 		},
 
 		"DynamoDBForumTableName": {

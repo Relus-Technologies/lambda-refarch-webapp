@@ -2,8 +2,8 @@
   'use strict';
   angular
     .module('ServerlessBlog')
-    .constant('awsRegion','<UPDATE_WITH_REGION>')
-    .constant('awsCognitoIdentityPoolId', 'UPDATE_WITH_COGNITO_IDENTITY_ID')
+    .constant('awsRegion','us-east-1')
+    .constant('awsCognitoIdentityPoolId', 'us-east-1:e1266f2a-55eb-481c-9e70-ef9910e5712e')
     .config(config);
 
     function config(awsRegion,awsCognitoIdentityPoolId) {
