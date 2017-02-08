@@ -1,0 +1,7 @@
+web:
+  build: .
+  volumes:
+    - "./:/data"
+  ports:
+    - "3000:3000"
+  command: gulp serve
